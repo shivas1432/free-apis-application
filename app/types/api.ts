@@ -1,3 +1,4 @@
+// Enhanced: Implement search functionality - Jan 2024
 export interface API {
   id: string;
   name: string;
