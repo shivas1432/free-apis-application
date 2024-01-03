@@ -1,3 +1,4 @@
+// Enhanced: Update UI components - Jan 2024
 'use client';
 
 import { GripVertical } from 'lucide-react';
@@ -43,3 +44,4 @@ const ResizableHandle = ({
 );
 
 export { ResizablePanelGroup, ResizablePanel, ResizableHandle };
+
