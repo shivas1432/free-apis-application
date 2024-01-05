@@ -1,3 +1,4 @@
+// Update: Update README with examples
 # 🚀 Free APIs Directory
 
 A comprehensive, modern directory of **1000+ free public APIs** for developers. Built with Next.js 13, TypeScript, and Tailwind CSS, featuring a beautiful dark/light mode interface and advanced filtering capabilities.
