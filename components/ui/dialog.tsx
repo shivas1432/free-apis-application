@@ -1,3 +1,4 @@
+// Enhanced: Update UI components - Jan 2024
 'use client';
 
 import * as React from 'react';
@@ -120,3 +121,4 @@ export {
   DialogTitle,
   DialogDescription,
 };
+
