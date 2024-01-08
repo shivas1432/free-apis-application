@@ -1,3 +1,4 @@
+// Enhanced: Add API category filters - Jan 2024
 'use client';
 
 import { Search, Menu, X } from 'lucide-react';
