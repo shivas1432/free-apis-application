@@ -1,3 +1,4 @@
+// Enhanced: Add API category filters - Jan 2024
 // Enhanced: Fix TypeScript types - Jan 2024
 'use client';
 
@@ -130,3 +131,4 @@ export function ApiCard({ api, index }: ApiCardProps) {
     </div>
   );
 }
+
