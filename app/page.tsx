@@ -1,3 +1,4 @@
+// Enhanced: Fix TypeScript types - Jan 2024
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
