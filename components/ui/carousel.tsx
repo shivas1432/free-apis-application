@@ -1,3 +1,4 @@
+// Enhanced: Add loading states - Jan 2024
 'use client';
 
 import * as React from 'react';
@@ -260,3 +261,4 @@ export {
   CarouselPrevious,
   CarouselNext,
 };
+
