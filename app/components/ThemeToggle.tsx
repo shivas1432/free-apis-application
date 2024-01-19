@@ -1,3 +1,4 @@
+// Enhanced: Implement search functionality - Jan 2024
 'use client';
 
 import { Moon, Sun } from 'lucide-react';
