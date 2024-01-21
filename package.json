@@ -1,4 +1,5 @@
 // Update: Update dependencies
+// Update: Update dependencies
 {
   "name": "nextjs",
   "version": "0.1.0",
@@ -72,4 +73,5 @@
     "zod": "^3.23.8"
   }
 }
+
 
