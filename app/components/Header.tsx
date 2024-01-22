@@ -1,3 +1,4 @@
+// Enhanced: Add API category filters - Jan 2024
 // Enhanced: Add dark mode support - Jan 2024
 // Enhanced: Add API category filters - Jan 2024
 'use client';
@@ -68,4 +69,5 @@ export function Header({ searchQuery, onSearchChange, onMenuToggle, isMobileMenu
     </header>
   );
 }
+
 
