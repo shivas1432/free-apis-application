@@ -1,3 +1,4 @@
+// Enhanced: Update API data structure - Jan 2024
 // Enhanced: Add API category filters - Jan 2024
 // Enhanced: Add API rate limiting info - Jan 2024
 [
@@ -3002,4 +3003,5 @@
     "tags": ["dental", "oral", "cavity", "gum"]
   }
 ]
+
 
