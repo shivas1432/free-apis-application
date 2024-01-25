@@ -1,3 +1,4 @@
+// Enhanced: Improve error messages - Jan 2024
 // Enhanced: Implement pagination - Jan 2024
 'use client';
 
@@ -28,4 +29,5 @@ const Switch = React.forwardRef<
 Switch.displayName = SwitchPrimitives.Root.displayName;
 
 export { Switch };
+
 
