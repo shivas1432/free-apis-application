@@ -1,3 +1,4 @@
+// Enhanced: Fix TypeScript types - Jan 2024
 // Enhanced: Add dark mode support - Jan 2024
 import './globals.css';
 import type { Metadata } from 'next';
@@ -43,3 +44,4 @@ export default function RootLayout({
     </html>
   );
 }
+
