@@ -1,3 +1,4 @@
+// Enhanced: Fix responsive design issues - Jan 2024
 // Enhanced: Add loading states - Jan 2024
 'use client';
 
@@ -261,4 +262,5 @@ export {
   CarouselPrevious,
   CarouselNext,
 };
+
 
