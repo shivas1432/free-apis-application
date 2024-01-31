@@ -1,5 +1,6 @@
 // Enhanced: Add error handling - Jan 2024
 // Enhanced: Add error handling - Jan 2024
+// Enhanced: Add error handling - Jan 2024
 'use client';
 
 // Inspired by react-hot-toast library
@@ -191,5 +192,6 @@ function useToast() {
 }
 
 export { useToast, toast };
+
 
 
