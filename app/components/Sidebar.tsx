@@ -1,3 +1,4 @@
+// Enhanced: Fix TypeScript types - Feb 2024
 'use client';
 
 import { CategoryCount } from '@/app/types/api';
