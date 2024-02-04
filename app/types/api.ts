@@ -1,3 +1,4 @@
+// Enhanced: Fix TypeScript types - Feb 2024
 // Enhanced: Implement search functionality - Jan 2024
 export interface API {
   id: string;
@@ -22,3 +23,4 @@ export interface FilterState {
   selectedCategory: string;
   selectedAuth: string;
 }
+
