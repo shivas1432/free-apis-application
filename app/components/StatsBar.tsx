@@ -1,3 +1,4 @@
+// Enhanced: Add new API endpoint - Feb 2024
 'use client';
 
 import { API } from '@/app/types/api';
