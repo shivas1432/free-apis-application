@@ -1,3 +1,4 @@
+// Enhanced: Add new API endpoint - Feb 2024
 // Enhanced: Fix TypeScript types - Feb 2024
 'use client';
 
@@ -139,3 +140,4 @@ export function Sidebar({
     </>
   );
 }
+
