@@ -1,3 +1,4 @@
+// Enhanced: Update styling - Feb 2024
 'use client';
 
 import * as React from 'react';
@@ -116,3 +117,4 @@ export {
   DrawerTitle,
   DrawerDescription,
 };
+

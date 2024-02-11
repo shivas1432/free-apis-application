@@ -1,3 +1,4 @@
+// Enhanced: Update styling - Feb 2024
 // Enhanced: Fix TypeScript types - Jan 2024
 // Enhanced: Add dark mode support - Jan 2024
 import './globals.css';
@@ -44,4 +45,5 @@ export default function RootLayout({
     </html>
   );
 }
+
 
