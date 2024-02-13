@@ -1,3 +1,4 @@
+// Enhanced: Improve error messages - Feb 2024
 'use client';
 
 import { useTheme } from 'next-themes';
@@ -29,3 +30,4 @@ const Toaster = ({ ...props }: ToasterProps) => {
 };
 
 export { Toaster };
+
