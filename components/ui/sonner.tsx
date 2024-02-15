@@ -1,3 +1,4 @@
+// Enhanced: Update styling - Feb 2024
 // Enhanced: Improve error messages - Feb 2024
 'use client';
 
@@ -30,4 +31,5 @@ const Toaster = ({ ...props }: ToasterProps) => {
 };
 
 export { Toaster };
+
 
