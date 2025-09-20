@@ -17,7 +17,55 @@ export default function Home() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
-  const apis: API[] = [...apiData, ...apiData1, ...apiData2];
+  // Normalize authentication values to match the expected type
+  const normalizeAuthentication = (auth: string): "none" | "key" | "oauth" => {
+    if (!auth) return 'none';
+    const authLower = auth.toLowerCase().trim();
+    
+    // Handle various authentication formats
+    if (authLower.includes('key') || 
+        authLower.includes('api key') || 
+        authLower === 'apikey' ||
+        authLower === 'api_key' ||
+        authLower === 'token') {
+      return 'key';
+    }
+    
+    if (authLower.includes('oauth') || 
+        authLower.includes('bearer') || 
+        authLower === 'oauth2' ||
+        authLower === 'oauth 2.0') {
+      return 'oauth';
+    }
+    
+    if (authLower === 'none' || 
+        authLower === 'no' || 
+        authLower === 'not required' ||
+        authLower === 'free') {
+      return 'none';
+    }
+    
+    // Default fallback for unknown authentication types
+    return 'key';
+  };
+
+  // Process and normalize all API data
+  const apis: API[] = useMemo(() => {
+    const rawApis = [...apiData, ...apiData1, ...apiData2];
+    
+    return rawApis.map((api: any) => ({
+      id: api.id || '',
+      name: api.name || '',
+      description: api.description || '',
+      category: api.category || 'Other',
+      useCases: Array.isArray(api.useCases) ? api.useCases : [],
+      url: api.url || '',
+      documentation: api.documentation || undefined,
+      authentication: normalizeAuthentication(api.authentication || 'none'),
+      rateLimit: api.rateLimit || undefined,
+      tags: Array.isArray(api.tags) ? api.tags : []
+    }));
+  }, []);
 
   // Simulate loading for better UX
   useEffect(() => {
